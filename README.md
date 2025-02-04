@@ -25,7 +25,7 @@ Web part pulls all Microsoft 365 Groups and Teams that the logged in user has ac
 ## Compatibility
 
 ![SPFx 1.12.1](https://img.shields.io/badge/SPFx-1.12.1-green.svg)
-![Node.js v14 | v12 | v10](https://img.shields.io/badge/Node.js-v14%20%7C%20v12%20%7C%20v10-green.svg)
+![Node.js v10](https://img.shields.io/badge/Node.js-v14%20%7C%20v12%20%7C%20v10-green.svg)
 ![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
 ![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%202019-Not%20compatible-red.svg)
 ![Does not work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%202016%20(Feature%20Pack%202)-Not%20compatible-red.svg)
@@ -37,10 +37,11 @@ Web part pulls all Microsoft 365 Groups and Teams that the logged in user has ac
 
 - [SharePoint Framework Developer Preview](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)
 - [SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)
-
+- For best results, use node v10.xx
 ## Contributors
 
-* [Alison Collins](https://github.com/ReactIntern) 
+* [Alison Collins](https://github.com/ReactIntern)
+* [Juan-Gabriel Farias Sedalski](https://github.com/drswan1)
 
 ## Version history
 
@@ -49,13 +50,16 @@ Web part pulls all Microsoft 365 Groups and Teams that the logged in user has ac
 | 1.0.0   | April 16, 2021 | Initial release |
 | 1.0.1   | August 1, 2021 | Fixed references to Office.com |
 | 1.1.0   | October 8, 2021 | Upgraded to SPFx 1.12.1 for higher compatibility and added Teams Tab deployment support. |
-| 2.0.0  | February 26, 2023 | Added new styles (card/table), added page display settings/pagination
+| 2.0.0  | February 26, 2023 | Added new styles (card/table), added page display settings/pagination|
+| 2.0.2  | November 28, 2024 | CSS and asset redesign, disabled unnecessary functions|
+
 
 ## Prerequisites
 
 - Administrative access to Azure AD of Microsoft 365 tenant
 - SharePoint Online tenant
 - You need following set of permissions in order to manage Microsoft 365 Groups and Teams
+- Node 10.x required
 
 ```
 "webApiPermissionRequests": [{
